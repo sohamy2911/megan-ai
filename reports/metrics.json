@@ -1,0 +1,54 @@
+{
+  "project": "MEGAN AI",
+  "task": "Binary sentiment classification",
+  "dataset": "UCI Sentiment Labelled Sentences",
+  "total_samples_after_cleaning": 2982,
+  "training_samples": 2385,
+  "test_samples": 597,
+  "split": "80% train / 20% test",
+  "random_state": 42,
+  "accuracy": 0.7923,
+  "f1_score": 0.794,
+  "confusion_matrix": [
+    [
+      234,
+      65
+    ],
+    [
+      59,
+      239
+    ]
+  ],
+  "classification_report": {
+    "Negative": {
+      "precision": 0.7986348122866894,
+      "recall": 0.782608695652174,
+      "f1-score": 0.7905405405405406,
+      "support": 299.0
+    },
+    "Positive": {
+      "precision": 0.7861842105263158,
+      "recall": 0.802013422818792,
+      "f1-score": 0.7940199335548173,
+      "support": 298.0
+    },
+    "accuracy": 0.7922948073701842,
+    "macro avg": {
+      "precision": 0.7924095114065026,
+      "recall": 0.792311059235483,
+      "f1-score": 0.7922802370476789,
+      "support": 597.0
+    },
+    "weighted avg": {
+      "precision": 0.7924199390461678,
+      "recall": 0.7922948073701842,
+      "f1-score": 0.7922773229831779,
+      "support": 597.0
+    }
+  },
+  "source_counts": {
+    "imdb": 996,
+    "yelp": 996,
+    "amazon_cells": 990
+  }
+}
