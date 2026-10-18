@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 
-const API = 'https://YOUR-RENDER-URL.onrender.com'
+const API = 'https://megan-ai-1-r1ye.onrender.com'
 
 function App() {
   const [text, setText] = useState('')
